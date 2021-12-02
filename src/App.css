@@ -1,38 +1,310 @@
-.App {
-  text-align: center;
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+ 
+  --white: #ffffff;
+  --green:#00402F;
+  --bg:#77814C;
 }
+body{
+  background-color:var(--bg);
+  color: var(--white);
+}
+ /*! nav section */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  nav {
+    position: relative;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .nav-body {
+    padding-top:9px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid var(--green);
+    margin-left: 5%;
+    margin-right:5%;
   }
-  to {
-    transform: rotate(360deg);
+  .logo {
+    padding: 10px 0px;
+    width: 40px;
+    height: 40px;
+  }
+  .btn-primary {
+    padding:10px 0;
+    margin-top: 0px;
+    background-color: transparent;
+    border:none;
+    font-weight:500;
+  }
+  /* ! header section */
+  header {
+    color:var(--green) ;
+    margin-top: -72px;
+    background-repeat: no-repeat;
+    min-height:100vh;
+  }
+  .main-header {
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);  
+    position: absolute;
+    text-align: center;
+  }
+  .small {
+    font-size: 36px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-family: 'Abril Fatface', cursive;
+  }
+  .large {
+    font-size: 150px;
+    margin-top: -30px;
+    letter-spacing: 5px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'Abril Fatface', cursive;
+  }
+  .header-text{
+    width: 450px;
+    line-height: 1.5;
+    font-weight: 500;
+  }
+  /*! images-section */
+  .images{
+    display: flex;
+     height: 35rem;
+  }
+  .left-img, .right-img{
+    width:50%;
+    height: 100%;
+    object-fit: cover;
+  }
+   /*! buy now section */
+  .buy{
+    margin: 5%;
+  }
+  .buymain{
+    display: flex;
+    justify-content: space-between;
+  }
+  .buyimg{
+    width:40%;
+    object-fit: cover;
+    object-position: center center;
+  }
+  .content-buy{
+    margin: 5% 5% 5% 5%;
+    width:45%;
+  }
+  .proname{
+    font-size: 36px;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+  }
+  .proprice{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  .prodes{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+  .lastline{
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .link{
+    color:var(--green);
+    margin-top: 20px;
+    text-decoration: none;
+  }
+  .link:hover{
+    opacity: .7;
+    text-decoration: underline;
+  }
+/*! center section */
+   .center{
+     text-align: center;
+     margin: 0 auto;
+     background-color:var(--green);
+   }
+   .textcenter{
+    width: 80%;
+    font-weight: 500;
+    padding:7%;
+    letter-spacing: 1px;
+    line-height: 1.5;
+   }
+/*! image section */
+.img-wide{
+  color:var(--white)
+}
+.wide{
+    width:100%;
+    height: auto;
+    background-size: cover;
+  }
+  /*! footer section */
+  footer{
+    margin: 5% 5% 5% 5%;
+  }
+  .upper-sec{
+    display:flex;
+  }
+  .first {
+    width:60%;
+    margin: 0% 5% 2% 0%;
+  }
+  .second {
+    width:30%;
+    margin: 0% 6% 2% 0%;
+  }
+  .third{
+    width: 30%;
+    margin: 0% 6% 2% 0%;
+  }
+  .about-footer{
+    margin-bottom:3%;
+    font-size: 18px;
+  }
+  .footer-txt{
+    margin-bottom: 1%;
+    line-height: 1.5;
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--white);
+  }
+ a:hover{
+    text-decoration: underline;
+  }
+
+  .lower-sec{
+    display:flex;
+  }
+  .footer-text{
+    font-weight: 400;
+    font-size:14px;
+  }
+  .one{
+    margin-top: 20px;
+    width: 50%;
+  }
+  .text-field{
+    padding: 12px 10px;
+    width:300px;
+    display: inline-block;
+    box-sizing: border-box;
+    outline: none;
+    color:var(--white);
+    background: none;
+    border:2px solid var(--white);
+    border-top: none;
+    border-right:none;
+    border-left: none;
+  }
+  ::placeholder {
+  color:var(--white);
+}
+  .btn{
+    font-weight: 500;
+    text-transform: capitalize;
+    background-color: transparent;
+    color: white;
+    padding: 12px 20px;
+    border:2px solid var(--white);
+    border-top: none;
+    border-right:none;
+    cursor: pointer;
+    margin-left: -4px;
+  }
+
+/* ? header section */
+  
+@media(max-width:900px){
+/* ! header section */
+
+  .small {
+    font-size: 26px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-family: 'Abril Fatface', cursive;
+  }
+  .large {
+    font-size: 120px;
+    margin-top: -30px;
+    letter-spacing: 5px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'Abril Fatface', cursive;
+  }
+  .header-text{
+    width: 400px;
+    line-height: 1.5;
+    font-weight: 500;
+  }
+ /*! images-section */
+  .images{
+     height: 25rem;
+  }
+   /*! buy now section */
+  .buymain{
+    flex-direction: column;
+  }
+  .buyimg{
+    width:100%;
+  }
+  .content-buy{
+    width:90%;
+  }
+  .link{
+    margin-left: 0px;
+  }
+  /*! center section */
+   .center{
+     text-align: center;
+     margin: 0 auto;
+     background-color:var(--green);
+   }
+   .textcenter{
+     font-size: 20px;
+   }
+/*! About section */
+  .aboutmain{
+    flex-direction: column;
+  }
+  .aboutimg{
+    width:100%;
+  }
+  .content-about{
+    width:95%;
+  }
+  /*! footer section */
+  .upper-sec{
+    flex-direction: column;
+  }
+  .first {
+    width:100%;
+  }
+  .second {
+    width:100%;
+  }
+  .third{
+    width: 100%;
+  }
+  .lower-sec{
+    flex-direction: column;
+  }
+  .one{
+    margin-bottom: 7%;
+    width: 100%;
   }
 }
