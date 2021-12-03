@@ -200,7 +200,7 @@ body{
   }
   .text-field{
     padding: 12px 10px;
-    width:250px;
+    width:200px;
     display: inline-block;
     box-sizing: border-box;
     outline: none;
@@ -247,7 +247,7 @@ body{
     font-family: 'Abril Fatface', cursive;
   }
   .header-text{
-    width: 370px;
+    width: 320px;
     line-height: 1.5;
     font-weight: 500;
   }
