@@ -29,7 +29,7 @@ function App(props) {
         otxt="add to bag"
         olink=""
 
-        img="https://cdn.shopify.com/s/files/1/0167/9232/2148/products/Parfum-Naturel-Green-Cedar-Parfum-Naturel-Abel-Odor-50ml_e1a05f9c-b4ba-43ad-9570-78650e6f679d.jpg?v=1629902839"
+        primg="https://cdn.shopify.com/s/files/1/0167/9232/2148/products/Parfum-Naturel-Green-Cedar-Parfum-Naturel-Abel-Odor-50ml_e1a05f9c-b4ba-43ad-9570-78650e6f679d.jpg?v=1629902839"
       />
 
       <CenterSec centertxt="It’s crazy when you smell the cedarwood from the Atlas Mountains in Morocco, it is so peculiar and aromatic, it really
@@ -42,7 +42,7 @@ function App(props) {
         des="We believe in the power and beauty of (100% natural) scent and its ability to enrich daily life in a way nothing else can. We also believe that we are the generation of businesses and consumers who can turn the tide on the global climate crisis, but that we must act now. Read more about our environmental initiatives here, and help us, by holding us accountable."
         lastline=""
 
-        img="https://images.unsplash.com/photo-1595978706768-d3e0648ae1d8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2VkYXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80"
+        primg="https://images.unsplash.com/photo-1595978706768-d3e0648ae1d8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2VkYXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80"
       />
 
       <ProImg imglink="https://i.pinimg.com/originals/fc/c5/5b/fcc55b47e3d93b7684588e3d4b5d3532.jpg"/>

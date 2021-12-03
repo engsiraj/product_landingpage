@@ -5,7 +5,7 @@ const Product = (props) => {
         <>
             <section className="buy">
                 <div className="buymain">
-                    <img  className="buyimg" src={props.img} alt="thumbnail-image"/>
+                    <img  className="buyimg" src={props.primg} alt="buy-thumbnail"/>
                     <div className="content-buy">
                         <h1 className="proname">{props.name}</h1>
                         <h2 className="proprice">{props.price}</h2>
