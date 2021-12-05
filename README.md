@@ -1,7 +1,6 @@
 # Product landing page
 
-
-## Available Scripts
+##  [Click here to preview](http://localhost:3000)
 
 In the project directory, you can run:
 
