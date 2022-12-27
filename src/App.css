@@ -50,7 +50,7 @@ input, button, select, a{ font: inherit; }
 /* typograpgy */
 .headlg{font-size: var(--h1); margin-bottom:14px;}
 .headsm{font-size: var(--h2); margin-bottom:10px;}
-.textlg{font-size: var(--text1); margin-bottom:10px;}
+.textlg{font-size: var(--text1);}
 .textsm{font-size: var(--text2); margin-bottom:10px;}
 /* font wieght */
 .bold1{font-weight: 400;}
@@ -79,10 +79,22 @@ input, button, select, a{ font: inherit; }
 
 
 /* sections */
+.topline{
+    border-top:3px solid var(--primary);
+}
 .nav{
+    
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
-    
-     align-items: center;
+    align-items: center;
+}
+.header{
+    height:75vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_left{
+    width: 50%;
 }

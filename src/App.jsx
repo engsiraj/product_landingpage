@@ -3,9 +3,11 @@ import './App.css'
 function App() {
 
   return (
+    <div className="topline">
     <div className='container'>
        <Nav/>
        <Header/>
+    </div>
     </div>
   )
 }
@@ -25,9 +27,12 @@ function Nav() {
 function Header() {
   return (
     <div className='header'>
-    <p className="headsm bold3">Lorem ipsum dolor sit amet.</p>
-    <p className="textsm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, velit reiciendis tenetur omnis aut dolore</p>
-      <button className="btn bold3 textsm">Download</button>
+      <div className='header_left'>
+        <p className="headsm bold3">Manage your <br/>Business Better.</p>
+        <p className="textsm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, velit reiciendis tenetur omnis aut dolore</p>
+        <button className="btn bold3 textsm">Download</button>
+      </div>
+       <img className='header_right' src="" alt="" />
     </div>
   )
 }
