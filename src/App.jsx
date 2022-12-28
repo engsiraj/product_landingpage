@@ -6,7 +6,8 @@ function App() {
     <div className="topline">
     <div className='container'>
        <Nav/>
-       <Header/>
+        <Header />
+        <Middle/>
     </div>
     </div>
   )
@@ -33,6 +34,20 @@ function Header() {
         <button className="btn bold3 textsm">Download</button>
       </div>
        <img className='header_right' src="" alt="" />
+    </div>
+  )
+}
+
+function Middle() {
+  return (
+    <div className='middle'>
+      <div className='center'>
+        <p className="headsm bold3">Manage your <br/>Business Better.</p>
+        <p className="textsm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, velit reiciendis tenetur omnis aut dolore</p>
+        <button className="btn bold3 textsm">Download</button>
+        <img className='centerimg' src="" alt="" />
+      </div>
+       
     </div>
   )
 }
