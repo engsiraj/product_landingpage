@@ -38,6 +38,7 @@ input, button, select, a{ font: inherit; }
     --bold3: 600;
 
     /* colors */
+    --white:white;
     --dark:#323B44;
     --dim:#e7e7e7;
     --primary:#4460ff;
@@ -52,6 +53,7 @@ input, button, select, a{ font: inherit; }
 .headsm{font-size: var(--h2); margin-bottom:10px;}
 .textlg{font-size: var(--text1);}
 .textsm{font-size: var(--text2); margin-bottom:10px;}
+.center{text-align: center;}
 /* font wieght */
 .bold1{font-weight: 400;}
 .bold2{font-weight: 500;}
@@ -60,12 +62,20 @@ input, button, select, a{ font: inherit; }
 /* components */
 
 /* buttons */
-.btn{
+.btnblue{
     padding: 7px 18px;
     border: none;
     cursor: pointer;
     background:var(--primary);
-    color:white;
+    color:var(--white);
+    border-radius: 10px;
+}
+.btnwhite{
+    padding: 7px 18px;
+    border: none;
+    cursor: pointer;
+    background:var(--white);
+    color:var(--primary);
     border-radius: 10px;
 }
 .btnlg{
@@ -73,9 +83,10 @@ input, button, select, a{ font: inherit; }
     border: none;
     cursor: pointer;
     background:var(--dark);
-    color:white;
+    color:var(--white);
     border-radius: 10px;
 }
+
 
 
 /* sections */
@@ -90,7 +101,8 @@ input, button, select, a{ font: inherit; }
     align-items: center;
 }
 .header{
-    height:75vh;
+    margin-top: 100px;
+    height:85vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -98,14 +110,22 @@ input, button, select, a{ font: inherit; }
 .header_left{
     width: 50%;
 }
+.header_right{
+    height:100%;
+}
 .middle{
-    height: 90vh;
-    background-color: blue;
-    color: white;
+    background-color: var(--primary);
+    color: var(--white);
+    
     display: flex;
     justify-content: center;
 }
+.grouptext{
+    margin:0 auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+
+    width: 70%;
+}
 .centerimg{
-    width: 90%;
-    height: 60%;
 }
