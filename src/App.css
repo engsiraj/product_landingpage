@@ -93,6 +93,7 @@ input, button, select, a{ font: inherit; }
 .topline{
     border-top:3px solid var(--primary);
 }
+/* navigation section  */
 .nav{
     
     margin-top: 20px;
@@ -100,6 +101,8 @@ input, button, select, a{ font: inherit; }
     justify-content: space-between;
     align-items: center;
 }
+
+/* Header Section */
 .header{
     margin-top: 100px;
     height:85vh;
@@ -113,10 +116,10 @@ input, button, select, a{ font: inherit; }
 .header_right{
     height:100%;
 }
+/* Over view section */
 .middle{
     background-color: var(--primary);
     color: var(--white);
-    
     display: flex;
     justify-content: center;
 }
@@ -124,8 +127,11 @@ input, button, select, a{ font: inherit; }
     margin:0 auto;
     padding-top: 40px;
     padding-bottom: 20px;
-
     width: 70%;
 }
-.centerimg{
+/* Feature Section */
+
+.feature{
+ padding-top:40px;
+ padding-bottom:40px;
 }

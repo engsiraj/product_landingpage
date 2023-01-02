@@ -11,6 +11,7 @@ function App() {
         <Nav/>
         <Header />
         <Middle/>
+        <Feature/>
     </div>
   )
 }
@@ -22,7 +23,7 @@ function Nav() {
     <div className='container'>
     <div className='nav'>
     <p className="textlg bold3">Keliye</p>
-      <button className="btn bold3">Download</button>
+      <button className="btnblue bold3">Download</button>
       </div>
     </div>
   )
@@ -53,6 +54,40 @@ function Middle() {
           <button className="btnwhite bold3 textsm">Download</button>
         </div>
           <img className='centerimg' src={img2} alt="" />
+       </div> 
+    </div>
+  )
+}
+
+function Feature() {
+  return (
+    <div className='container'>
+      <div className='feature'>
+        <p className="headsm bold3">Feature</p>
+        <div className='fitems'>
+          
+           <div className="item">
+             <div className="icon">icon</div>
+             <p className='textlg bold3'>Feature 01</p>
+             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, error.</p>
+          </div>
+
+           <div className="item">
+             <div className="icon">icon</div>
+             <p className='textlg bold3'>Feature 01</p>
+             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, error.</p>
+          </div>
+
+           <div className="item">
+             <div className="icon">icon</div>
+             <p className='textlg bold3'>Feature 01</p>
+             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, error.</p>
+          </div>
+
+          
+          
+          </div>
+          {/* <img className='centerimg' src={img2} alt="" /> */}
        </div> 
     </div>
   )
