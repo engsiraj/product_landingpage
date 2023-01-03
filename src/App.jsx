@@ -1,3 +1,4 @@
+import { AiFillTags, AiOutlineLineChart,AiOutlineAliyun,AiOutlineAppstoreAdd,AiOutlineFileProtect} from "react-icons/ai";
 import './App.css'
 import img1 from './assets/mainscr.png'
 import img4 from './assets/screen2.png'
@@ -22,7 +23,7 @@ function Nav() {
   return (
     <div className='container'>
     <div className='nav'>
-    <p className="textlg bold3">Keliye</p>
+    <p className="textlg bold3"><AiFillTags/>Keliye</p>
       <button className="btnblue bold3">Download</button>
       </div>
     </div>
@@ -67,24 +68,29 @@ function Feature() {
         <div className='fitems'>
           
            <div className="item">
-             <div className="icon">icon</div>
+             <AiOutlineFileProtect className="icon" />
              <p className='textlg bold3'>Feature 01</p>
-             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, error.</p>
+             <p>Lorem, ipsum dolor sit amet consectetur </p>
           </div>
-
-           <div className="item">
-             <div className="icon">icon</div>
-             <p className='textlg bold3'>Feature 01</p>
-             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, error.</p>
-          </div>
-
-           <div className="item">
-             <div className="icon">icon</div>
-             <p className='textlg bold3'>Feature 01</p>
-             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, error.</p>
-          </div>
-
           
+           <div className="item">
+             <AiOutlineAppstoreAdd className="icon" />
+             <p className='textlg bold3'>Feature 01</p>
+             <p>Lorem, ipsum dolor sit amet consectetur </p>
+          </div>
+
+           <div className="item">
+            <AiOutlineLineChart className="icon"  />
+             <p className='textlg bold3'>Feature 01</p>
+             <p>Lorem, ipsum dolor sit amet consectetur </p>
+          </div>
+
+           <div className="item">
+           <AiOutlineAliyun className="icon" />
+             <p className='textlg bold3'>Feature 01</p>
+             <p>Lorem ipsum dolor, sit amet consectetur </p>
+          </div>
+
           
           </div>
           {/* <img className='centerimg' src={img2} alt="" /> */}
