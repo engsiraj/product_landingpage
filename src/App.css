@@ -45,7 +45,6 @@ input, button, select, a{ font: inherit; }
     --secondary:#e8c300;
     }
 
-
 /* website container */
 .container{margin: 0 auto;padding: 0 15%;}
 /* typograpgy */
@@ -88,15 +87,12 @@ input, button, select, a{ font: inherit; }
     border-radius: 10px;
 }
 
-
-
 /* sections */
 .topline{
     border-top:3px solid var(--primary);
 }
 /* navigation section  */
 .nav{
-    
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
@@ -228,4 +224,110 @@ input, button, select, a{ font: inherit; }
 
     display: flex;
     justify-content: space-between;
+}
+
+/* Responsive design */
+
+@media (max-width:748px){
+/* tablet container */
+.container{padding: 0 10%;}
+/* font sizes */
+.headlg{font-size: var(--hs1);}
+.headsm{font-size: var(--hs2);}
+.textlg{font-size: var(--texts1);}
+.textsm{font-size: var(--texts2);}
+.header{
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_left{
+    width: 50%;
+}
+.header_right{width: 50%;}
+.dsec{
+    height: 47vh;
+    padding-top: 20px;
+    justify-content:normal;
+    flex-direction: column;
+}
+.icond{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* working section */
+
+.witems{
+    margin-top: 0;
+    margin-bottom : 0;
+    flex-direction: column;
+}
+.witem{
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.wside{
+    width: 450px;
+    margin-left:20px;
+}
+
+
+}
+
+/* Mobile responsive */
+@media (max-width:512px){
+/* Mobile container */
+.container{padding: 0 5%;}
+/* header section */
+.header{
+    margin-top: 50px;
+    text-align: center;
+    flex-direction: column;
+}
+.header_left{ width: 100%;}
+.header_right{width:100%;}
+/* middle section */
+.middle{
+    margin-top: 194px;
+    display: flex;
+    justify-content: center;
+}
+.grouptext{width: 100%;}
+/* feature section */
+.fitems{flex-direction: column; align-items: center;}
+.fitem{width: 80%; margin-top: 25px;}
+/* download section */
+.dsec{
+    height: 47vh;
+    padding-top: 20px;
+    justify-content:normal;
+    flex-direction: column;
+}
+.icond{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* working section */
+.witems{
+    margin-top: 0;
+    margin-bottom : 0;
+    flex-direction: column;
+}
+.witem{margin-top: 40px;}
+
+/* footer section */
+.footcontent{
+    height: 70vh;
+    display: flex;
+    justify-content: normal;
+    align-items: normal;
+    flex-direction: column;
+}
+.footeright{
+    margin-top: 20px;
+    width: 100%;
+}
+.footleft{width: 50%; margin-top: 30px;}
 }

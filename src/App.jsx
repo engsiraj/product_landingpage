@@ -43,7 +43,7 @@ function Header() {
     <div className='container'>
     <div className='header'>
       <div className='header_left'>
-        <p className="headsm bold3">Manage your <br/>Business Better.</p>
+        <p className="headsm bold3">Manage your Business Better.</p>
         <p className="textsm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, velit reiciendis tenetur omnis aut dolore</p>
         <button className="btnblue bold3 textsm">Download</button>
       </div>
@@ -212,7 +212,7 @@ function Footer() {
             </div>
             </div>
           </div>
-          
+
         </div>
        </div> 
     </div>
