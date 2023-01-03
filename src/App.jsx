@@ -173,26 +173,46 @@ function Footer() {
   return (
     <div className='footer'>
       <div className='container'>
-        <div className=''>
+        <div className='footcontent'>
+
           <div className="footeright">
-            <div className="dsec">
-        <p className="headsm bold3">Download our app</p>
-        <button className="btnlg icond">
-            <FaGooglePlay className="downicon" />
-            <div>
-              <p className="text bold2 left">DOWNLOAD ON</p>
-              <p className="textlg bold3 left">Play Store</p>
-            </div>
-        </button>
-        <button className="btnlg icond">
-            <BsApple className="downicon" />
-            <div>
-              <p className="text bold2 left">GET IT ON</p>
-              <p className="textlg bold3 left">Apple Store</p>
-            </div>
-        </button> 
-      </div>
+            <p className="headsm bold3">Download our app</p>
+            <div className="footbtns">
+              <button className="btnlg icond">
+                <FaGooglePlay className="downicon" />
+                <div>
+                  <p className="text bold2 left">DOWNLOAD ON</p>
+                  <p className="textlg bold3 left">Play Store</p>
+                </div>
+            </button>
+            <button className="btnlg icond">
+                <BsApple className="downicon" />
+                <div>
+                  <p className="text bold2 left">GET IT ON</p>
+                  <p className="textlg bold3 left">Apple Store</p>
+                </div>
+            </button>
           </div>
+          </div>
+          
+          <div className="footleft">
+            <p className="headsm bold3">important links</p>
+            <div className="footlinks">
+            <div>
+              <p>link1</p>
+              <p>link1</p>
+              <p>link1</p>
+              <p>link1</p>
+            </div>
+            <div>
+              <p>link1</p>
+              <p>link1</p>
+              <p>link1</p>
+              <p>link1</p>
+            </div>
+            </div>
+          </div>
+          
         </div>
        </div> 
     </div>

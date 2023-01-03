@@ -200,3 +200,32 @@ input, button, select, a{ font: inherit; }
     width: 350px;
     margin-left:20px;
 }
+
+/* footer section */
+
+.footer{
+    background-color: var(--primary);
+    color: var(--white);
+}
+.footcontent{
+    height: 50vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footeright{
+    width: 53%;
+}
+.footbtns{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 30px;
+}
+.footlinks{
+    margin-top: 30px;
+
+    display: flex;
+    justify-content: space-between;
+}
