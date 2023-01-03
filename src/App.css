@@ -53,6 +53,7 @@ input, button, select, a{ font: inherit; }
 .headsm{font-size: var(--h2); margin-bottom:10px;}
 .textlg{font-size: var(--text1);}
 .textsm{font-size: var(--text2); margin-bottom:10px;}
+.left{text-align: left;}
 .center{text-align: center;}
 /* font wieght */
 .bold1{font-weight: 400;}
@@ -101,7 +102,6 @@ input, button, select, a{ font: inherit; }
     justify-content: space-between;
     align-items: center;
 }
-
 /* Header Section */
 .header{
     margin-top: 100px;
@@ -130,24 +130,73 @@ input, button, select, a{ font: inherit; }
     width: 70%;
 }
 /* Feature Section */
-
 .feature{
  padding-top:40px;
  padding-bottom:40px;
 }
 .fitems{
     margin-top: 40px;
+    margin-bottom : 20px;
     display: flex;
     justify-content: space-between;
 }
-.item{
+.fitem{
     width: 220px;
     text-align: center;
 }
-.icon{
+.ficon{
     font-size: 54px;
     padding: 10px;
     background-color:var(--primary);
     color:var(--white);
     border-radius: 10px;
+}
+/* Download app Section */
+.download{
+    background-color: var(--primary);
+    color: var(--white);
+}
+.dsec{
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.icond{
+    display: flex;
+    align-items: center;
+}
+.downicon{
+    margin-right: 20px;
+    font-size: 32px;
+}
+
+/* working section */
+
+.working{
+    padding-top:40px;
+    padding-bottom:40px;
+}
+.witems{
+    margin-top: 40px;
+    margin-bottom : 40px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.witem{
+    display: flex;
+    justify-content: space-between;
+}
+.wicon{
+    font-size: 90px;
+    padding: 25px;
+    background-color:var(--primary);
+    color:var(--white);
+    border-radius:22px;
+}
+.wside{
+    width: 350px;
+    margin-left:20px;
 }
