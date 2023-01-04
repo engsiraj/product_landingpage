@@ -272,9 +272,10 @@ input, button, select, a{ font: inherit; }
     width: 450px;
     margin-left:20px;
 }
-
-
 }
+
+
+
 
 /* Mobile responsive */
 @media (max-width:512px){
@@ -329,5 +330,14 @@ input, button, select, a{ font: inherit; }
     margin-top: 20px;
     width: 100%;
 }
+.footbtns{flex-direction: column;}
 .footleft{width: 50%; margin-top: 30px;}
+}
+
+@media (max-width:360px){
+.middle{margin-top: 263px;}
+.dsec{height: 55vh;}
+.wside{width: 250px;}
+.footcontent{height: 100vh;}
+.footleft{width:75%;}
 }

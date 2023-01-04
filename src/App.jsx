@@ -174,7 +174,6 @@ function Footer() {
     <div className='footer'>
       <div className='container'>
         <div className='footcontent'>
-
           <div className="footeright">
             <p className="headsm bold3">Download our app</p>
             <div className="footbtns">
