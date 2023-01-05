@@ -11,7 +11,8 @@ function App() {
       <Nav />
       <Header />
       <Work />
-      <Process/>
+      <Process />
+      <Contact/>
     
     </>
   )
@@ -81,14 +82,49 @@ function Work() {
 function Process() {
   return (
     <>
-      <div className='container'>
-      <div className='process'>
-          <p className="headlg">Process.</p>
-          
-            
-         
+      <div className='container'>   
+       
+        <p className="headlg">Process.</p>
+         <div className='process'> 
+          <div className="cards">
+            <div className="card">
+              <div className="cardcontent">
+                <p className="headsm">Idea</p>
+                <p className="text">Lorem ipsum dolor sit amet consectetur adipisicing. </p>
+              </div>
+            </div>
+            <div className="card">
+              <div className="cardcontent">
+                <p className="headsm">Design</p>
+                <p className="text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              </div>
+            </div>
+            <div className="card">
+              <div className="cardcontent">
+                <p className="headsm">develop</p>
+                <p className="text">Lorem ipsum dolor sit amet consectetur adipisicing.      </p>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+</div>
+    </>
+  )
+}
+
+
+
+function Contact() {
+  return (
+    <>
+      <div className='container'>  
+        <div className="contact">
+          <p className="text">Lorem ipsum dolor sit.</p>
+          <p className="text">Lorem ipsum dolor sit.</p>
+          <p className="headlg">lets talk?</p>
+          <p className="text right">Lorem ipsum dolor sit.</p>
+        </div>
+       </div>
     </>
   )
 }
