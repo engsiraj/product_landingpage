@@ -51,7 +51,7 @@ a {
   /* Type */
   --text: 18px;
   /* Mobile */
-  --mob-head-lg: 80px;
+  --mob-head-lg: 75px;
   --mob-head-sm: 34px;
   --mob-navtext: 30px;
   /* tablet */
@@ -121,8 +121,7 @@ a {
   width: 50%;
 }
 .headimg {
-  width: 38%;
-  height: 90px;
+    width: 37%;
 }
 /* work section */
 .work {
@@ -146,7 +145,7 @@ a {
   align-items: center;
 }
 .workicon{
-  font-size: 35px;
+  font-size: 30px;
 }
 /* process  section*/
 .process {
@@ -174,7 +173,7 @@ a {
 }
 .contact {
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 .contactlinks{
     margin-bottom:30px;

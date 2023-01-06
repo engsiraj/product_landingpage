@@ -1,5 +1,6 @@
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import img1 from './assets/fullscr.png'
+import user from './assets/user.png'
 import card1 from './assets/card1.png'
 import card2 from './assets/card2.png'
 import card3 from './assets/card3.png'
@@ -15,7 +16,6 @@ function App() {
       <Work />
       <Process />
       <Contact/>
-    
     </>
   )
 }
@@ -48,8 +48,8 @@ function Header() {
       <div className='header'>
           <p className="headlg">hi, i am siraj.<br /> A web developer</p>
           <div className="headbottom">
-            <p className="para text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores voluptas obcaecati reiciendis amet facere sit deleniti neque aut.</p>
-            <img className="headimg" src={img1} alt="image" />
+            <p className="para text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae minus architecto porro eos itaque numquam esse quia consectetur molestias officiis.</p>
+            <img className="headimg" src={user} alt="image" />
           </div>  
         </div>
       </div>
