@@ -1,7 +1,9 @@
-import { AiFillTags, AiOutlineLineChart, AiOutlineAliyun, AiOutlineAppstoreAdd, AiOutlineFileProtect } from "react-icons/ai";
-import { FaGooglePlay } from "react-icons/fa";
-import { BsApple } from "react-icons/bs";
+import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import img1 from './assets/fullscr.png'
+import card1 from './assets/card1.png'
+import card2 from './assets/card2.png'
+import card3 from './assets/card3.png'
+
 import './App.css'
 
 function App() {
@@ -69,7 +71,7 @@ function Work() {
             <img className="workimg" src={img1} alt="image" />
             <div className="worklower">
               <p className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              <p className="text">Arrow</p>
+              < HiOutlineArrowNarrowRight className="workicon"/>
             </div>
           </div>  
         </div>
@@ -83,44 +85,43 @@ function Process() {
   return (
     <>
       <div className='container'>   
-       
         <p className="headlg">Process.</p>
          <div className='process'> 
           <div className="cards">
-            <div className="card">
+            <div className="card" style={{'backgroundImage':`url('${card1}')`}}>
               <div className="cardcontent">
                 <p className="headsm">Idea</p>
                 <p className="text">Lorem ipsum dolor sit amet consectetur adipisicing. </p>
               </div>
             </div>
-            <div className="card">
+            <div className="card" style={{'backgroundImage':`url('${card2}')`}}>
               <div className="cardcontent">
                 <p className="headsm">Design</p>
                 <p className="text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
               </div>
             </div>
-            <div className="card">
+            <div className="card" style={{'backgroundImage':`url('${card3}')`}}>
               <div className="cardcontent">
                 <p className="headsm">develop</p>
-                <p className="text">Lorem ipsum dolor sit amet consectetur adipisicing.      </p>
+                <p className="text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
               </div>
             </div>
           </div>
         </div>
-</div>
+    </div>
     </>
   )
 }
-
-
 
 function Contact() {
   return (
     <>
       <div className='container'>  
         <div className="contact">
-          <p className="text">Lorem ipsum dolor sit.</p>
-          <p className="text">Lorem ipsum dolor sit.</p>
+          <div className="contactlinks">
+            <p className="text">Lorem ipsum dolor sit.</p>
+            <p className="text">Lorem ipsum dolor sit.</p>
+          </div>
           <p className="headlg">lets talk?</p>
           <p className="text right">Lorem ipsum dolor sit.</p>
         </div>

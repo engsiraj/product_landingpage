@@ -111,7 +111,7 @@ a {
   margin-top: 50px;
 }
 
-.headbottom {
+.headbottom{
   margin-top: 140px;
   display: flex;
   justify-content: space-between;
@@ -145,6 +145,9 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+.workicon{
+  font-size: 35px;
+}
 /* process  section*/
 .process {
   margin-top: 20px;
@@ -153,11 +156,14 @@ a {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
+  
 }
 .card {
-  background-color: #e8c300;
+  color:var(--white);
   flex-direction: column;
   width: 33%;
+  background-size:cover;
+ 
 }
 .cardcontent {
   padding: 50px 40px;
@@ -170,9 +176,15 @@ a {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+.contactlinks{
+    margin-bottom:30px;
+}
 .right {
+  margin-top: 30px;
   text-align: right;
 }
+
+
 
 /* tablet deskign */
 @media (max-width: 748px) {
@@ -210,14 +222,23 @@ a {
     transform: none;
     margin-bottom: 20px;
   }
-  /* work section */
+  /* process section */
+.cards {
+    flex-direction: column;
+}
+.card {
+    width: 100%;
+    margin-top:20px;
+}
+.cardcontent { 
+    padding: 50px 40px;
+    height: 250px;
+}
 }
 /* mobile */
 @media (max-width: 512px) {
   /*-mob container */
-  .container {
-    padding: 0 5%;
-  }
+  .container { padding: 0 5%;}
   /* type */
   .headlg {
     font-size: var(--mob-head-lg);
