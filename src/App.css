@@ -106,11 +106,16 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+.navlink{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  
+}
 /* header */
 .header {
   margin-top: 50px;
 }
-
 .headbottom{
   margin-top: 140px;
   display: flex;
@@ -155,7 +160,6 @@ a {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
-  
 }
 .card {
   color:var(--white);
@@ -182,9 +186,6 @@ a {
   margin-top: 30px;
   text-align: right;
 }
-
-
-
 /* tablet deskign */
 @media (max-width: 748px) {
   .container {
